@@ -83,6 +83,8 @@ public class DashaMapTest {
     public void testSize_0(){
         //given
         DashaMap test = new DashaMap();
+        //then
+        Assert.assertEquals(test.size(), 0);
 
     }
     @Test
